@@ -4,50 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discover Nepal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #2c3e50;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #34495e;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    section {
-      padding: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .gallery img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 5px;
-    }
-    footer {
-      background: #2c3e50;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -65,6 +22,7 @@
   <section id="intro">
     <h2>Introduction</h2>
     <p>Nepal is a beautiful country located in South Asia, known for its majestic Himalayan mountains, diverse culture, and warm hospitality.</p>
+    <button onclick="showAlert('Nepal is truly magical!')">Click Me</button>
   </section>
 
   <section id="culture">
@@ -89,5 +47,7 @@
   <footer>
     <p>&copy; 2026 Discover Nepal | Designed with love</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
